@@ -19,6 +19,6 @@ mature grid system. There's a lot of nice options out there. That said,
 it's supper simple, so if that's your thing ...
   
 This is free and unencumbered software released into the public domain
-under the terms of the [Unlicense](http://unlicense.org)
+under the terms of the [Unlicense](http://unlicense.org).
 
-Also, there's a [demo](http://www.sometimes-i.com/code/yggdrasil/demo.html)
+Also, there's a [demo](http://www.sometimes-i.com/code/yggdrasil/demo.html).
