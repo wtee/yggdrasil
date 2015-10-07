@@ -1,0 +1,91 @@
+/* yggdrasil.css -- a simple responsive (and fluid ( ... ooh)), mobile-
+ * first CSS grid in 12 parts. 
+ * 
+ * This is free and unencumbered software released into the public domain
+ * under the terms of the Unlicense <http://unlicense.org>
+ */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.grid,
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine,
+.ten,
+.eleven,
+.twelve {
+  display:inline-block;
+  width:96%;
+}
+
+@media (min-width:500px) {
+  .one    { width:48%; }
+  .two    { width:48%; }
+  .three  { width:48%; }
+  .four   { width:48%; }
+  .five   { width:48%; }
+  .six    { width:48%; }
+  .seven  { width:48%; }
+  .eight  { width:48%; }
+  .nine   { width:48%; }
+  .ten    { width:48%; }
+  .eleven { width:48%; }
+  .twelve { width:96%; }
+}
+
+@media (min-width:541px) {
+  .one    { width:24%; }
+  .two    { width:24%; }
+  .three  { width:24%; }
+  .four   { width:32%; }
+  .five   { width:48%; }
+  .six    { width:48%; }
+  .seven  { width:48%; }
+  .eight  { width:64%; }
+  .nine   { width:72%; }
+  .ten    { width:72%; }
+  .eleven { width:72%; }
+  .twelve { width:96%; }
+}
+
+@media (min-wdith:768px) {
+  .one    { width:24%; }
+  .two    { width:24%; }
+  .three  { width:24%; }
+  .four   { width:32%; }
+  .five   { width:40%; }
+  .six    { width:48%; }
+  .seven  { width:56%; }
+  .eight  { width:64%; }
+  .nine   { width:72%; }
+  .ten    { width:72%; }
+  .eleven { width:72%; }
+  .twelve { width:96%; }
+}
+
+@media (min-width:960px) {
+  .one    { width:8%;  }
+  .two    { width:16%; }
+  .three  { width:24%; }
+  .four   { width:32%; }
+  .five   { width:40%; }
+  .six    { width:48%; }
+  .seven  { width:56%; }
+  .eight  { width:64%; }
+  .nine   { width:72%; }
+  .ten    { width:80%; }
+  .eleven { width:88%; }
+  .twelve { width:96%; }
+}
