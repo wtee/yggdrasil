@@ -3,18 +3,20 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />
+  <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" /-->
   <link rel="stylesheet" href="yggdrasil.css" />
   <style>
 .grid div {
     background-color:#aaa;
-    margin:1px;	
 }
 
-@media (min-width:500px) {
-    .twelve {
-	    width:96.17%;
-    }
+.twelve .one,
+.twelve .eleven {
+	background-color:#ccc;
+}
+
+.eleven .six {
+	background-color:#eee;
 }
   </style>
 </head>
@@ -26,7 +28,13 @@
 	<div class="four">qux</div><div class="eight">papaya</div>
 	<div class="five">quux</div><div class="seven">orange</div>
 	<div class="six">quuux</div><div class="six">tomato</div>
-	<div class="twelve">&nbsp;</div>
+	<div class="twelve">
+	  <div class="one">Look at me! I'm nested.</div>
+	  <div class="eleven">
+	    <div class="six">I'm nested in a nested div!</div>
+	    <div class="six">Me too!</div>
+	  </div>
+	</div>
   </div>
 </body>
 </html>
