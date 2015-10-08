@@ -19,80 +19,81 @@ html {
 	width:100%;
 }
 
-.one,
-.two,
-.three,
-.four,
-.five,
-.six,
-.seven,
-.eight,
-.nine,
-.ten,
-.eleven,
-.twelve {
+.c1,
+.c2,
+.c3,
+.c4,
+.c5,
+.c6,
+.c7,
+.c8,
+.c9,
+.c10,
+.c11,
+.c12 {
 	display:inline-block;
 	width:96%;
 	margin-right:-2%;
 	margin-left:2%;
+	vertical-align:top;
 }
 
 @media (min-width:500px) {
-	.one    { width:48%; }
-	.two    { width:48%; }
-	.three  { width:48%; }
-	.four   { width:48%; }
-	.five   { width:48%; }
-	.six    { width:48%; }
-	.seven  { width:48%; }
-	.eight  { width:48%; }
-	.nine   { width:48%; }
-	.ten    { width:48%; }
-	.eleven { width:48%; }
-	.twelve { width:96%; }
+	.c1  { width:48%; }
+	.c2  { width:48%; }
+	.c3  { width:48%; }
+	.c4  { width:48%; }
+	.c5  { width:48%; }
+	.c6  { width:48%; }
+	.c7  { width:48%; }
+	.c8  { width:48%; }
+	.c9  { width:48%; }
+	.c10 { width:48%; }
+	.c11 { width:48%; }
+	.c12 { width:96%; }
 }
 
 @media (min-width:541px) {
-	.one    { width:24%; }
-	.two    { width:24%; }
-	.three  { width:24%; }
-	.four   { width:32%; }
-	.five   { width:48%; }
-	.six    { width:48%; }
-	.seven  { width:48%; }
-	.eight  { width:64%; }
-	.nine   { width:72%; }
-	.ten    { width:72%; }
-	.eleven { width:72%; }
-	.twelve { width:96%; }
+	.c1  { width:24%; }
+	.c2  { width:24%; }
+	.c3  { width:24%; }
+	.c4  { width:32%; }
+	.c5  { width:48%; }
+	.c6  { width:48%; }
+	.c7  { width:48%; }
+	.c8  { width:64%; }
+	.c9  { width:72%; }
+	.c10 { width:72%; }
+	.c11 { width:72%; }
+	.c12 { width:96%; }
 }
 
 @media (min-wdith:768px) {
-	.one    { width:24%; }
-	.two    { width:24%; }
-	.three  { width:24%; }
-	.four   { width:32%; }
-	.five   { width:40%; }
-	.six    { width:48%; }
-	.seven  { width:56%; }
-	.eight  { width:64%; }
-	.nine   { width:72%; }
-	.ten    { width:72%; }
-	.eleven { width:72%; }
-	.twelve { width:96%; }
+	.c1  { width:24%; }
+	.c2  { width:24%; }
+	.c3  { width:24%; }
+	.c4  { width:32%; }
+	.c5  { width:40%; }
+	.c6  { width:48%; }
+	.c7  { width:56%; }
+	.c8  { width:64%; }
+	.c9  { width:72%; }
+	.c10 { width:72%; }
+	.c11 { width:72%; }
+	.c12 { width:96%; }
 }
 
 @media (min-width:960px) {
-	.one    { width:8%;  }
-	.two    { width:16%; }
-	.three  { width:24%; }
-	.four   { width:32%; }
-	.five   { width:40%; }
-	.six    { width:48%; }
-	.seven  { width:56%; }
-	.eight  { width:64%; }
-	.nine   { width:72%; }
-	.ten    { width:80%; }
-	.eleven { width:88%; }
-	.twelve { width:96%; }
+	.c1  { width:8%;  }
+	.c2  { width:16%; }
+	.c3  { width:24%; }
+	.c4  { width:32%; }
+	.c5  { width:40%; }
+	.c6  { width:48%; }
+	.c7  { width:56%; }
+	.c8  { width:64%; }
+	.c9  { width:72%; }
+	.c10 { width:80%; }
+	.c11 { width:88%; }
+	.c12 { width:96%; }
 }

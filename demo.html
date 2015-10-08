@@ -3,36 +3,56 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" / >
   <link rel="stylesheet" href="yggdrasil.css" />
   <style>
 .grid div {
     background-color:#aaa;
 }
 
-.twelve .one,
-.twelve .eleven {
-	background-color:#ccc;
+.c1,
+.c2,
+.c3,
+.c4,
+.c5,
+.c6,
+.c7,
+.c8,
+.c9,
+.c10,
+.c11,
+.c12 {
+	height:100px;
+	margin-top:1em;
+	text-align:center;
 }
 
-.eleven .six {
+
+.c12 .c1,
+.c12 .c11 {
+	background-color:#ccc;
+	margin-top:0;
+}
+
+.c11 .c6 {
 	background-color:#eee;
+	margin-top:0;
 }
   </style>
 </head>
 <body>
   <div class="grid">
-	<div class="one">foo</div><div class="eleven">banana</div>
-	<div class="two">bar</div><div class="ten">kiwi</div>
-	<div class="three">baz</div><div class="nine">apple</div>
-	<div class="four">qux</div><div class="eight">papaya</div>
-	<div class="five">quux</div><div class="seven">orange</div>
-	<div class="six">quuux</div><div class="six">tomato</div>
-	<div class="twelve">
-	  <div class="one">Look at me! I'm nested.</div>
-	  <div class="eleven">
-	    <div class="six">I'm nested in a nested div!</div>
-	    <div class="six">Me too!</div>
+	<div class="c1">foo</div><div class="c11">banana</div>
+	<div class="c2">bar</div><div class="c10">kiwi</div>
+	<div class="c3">baz</div><div class="c9">apple</div>
+	<div class="c4">qux</div><div class="c8">papaya</div>
+	<div class="c5">quux</div><div class="c7">orange</div>
+	<div class="c6">quuux</div><div class="c6">tomato</div>
+	<div class="c12">
+	  <div class="c1">Look, I'm nested!</div>
+	  <div class="c11">
+	    <div class="c6">I'm nested in a nested div!</div>
+	    <div class="c6">Me too!</div>
 	  </div>
 	</div>
   </div>
