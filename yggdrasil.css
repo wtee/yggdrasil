@@ -17,6 +17,12 @@ html {
 .grid {
 	display:inline-block;
 	width:100%;
+	margin-left:2%;
+}
+
+.offset {
+    height:0;
+    padding:1px;
 }
 
 .c1,
@@ -33,12 +39,10 @@ html {
 .c12 {
 	display:inline-block;
 	width:96%;
-	margin-right:-2%;
-	margin-left:2%;
 	vertical-align:top;
 }
 
-@media (min-width:500px) {
+@media (min-width:640px) {
 	.c1  { width:48%; }
 	.c2  { width:48%; }
 	.c3  { width:48%; }
@@ -53,7 +57,7 @@ html {
 	.c12 { width:96%; }
 }
 
-@media (min-width:541px) {
+@media (min-width:740px) {
 	.c1  { width:24%; }
 	.c2  { width:24%; }
 	.c3  { width:24%; }
@@ -68,7 +72,7 @@ html {
 	.c12 { width:96%; }
 }
 
-@media (min-wdith:768px) {
+@media (min-wdith:960px) {
 	.c1  { width:24%; }
 	.c2  { width:24%; }
 	.c3  { width:24%; }
@@ -83,7 +87,7 @@ html {
 	.c12 { width:96%; }
 }
 
-@media (min-width:960px) {
+@media (min-width:1140px) {
 	.c1  { width:8%;  }
 	.c2  { width:16%; }
 	.c3  { width:24%; }
