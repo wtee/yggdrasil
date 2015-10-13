@@ -17,7 +17,7 @@ html {
 .grid {
 	display:inline-block;
 	width:100%;
-	margin-left:2%;
+	margin-left:1.5%;
 }
 
 .offset {
@@ -39,6 +39,7 @@ html {
 .c12 {
 	display:inline-block;
 	width:96%;
+	margin-left:0.5%;
 	vertical-align:top;
 }
 
@@ -72,8 +73,8 @@ html {
 	.c12 { width:96%; }
 }
 
-@media (min-wdith:960px) {
-	.c1  { width:24%; }
+@media (min-width:960px) {
+	.c1  { width:16%; }
 	.c2  { width:24%; }
 	.c3  { width:24%; }
 	.c4  { width:32%; }
@@ -83,7 +84,7 @@ html {
 	.c8  { width:64%; }
 	.c9  { width:72%; }
 	.c10 { width:72%; }
-	.c11 { width:72%; }
+	.c11 { width:80%; }
 	.c12 { width:96%; }
 }
 
