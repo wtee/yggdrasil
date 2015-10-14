@@ -1,5 +1,5 @@
 #Yggdrasil
-Yggdrasil is a a simple, responsive, light-weight, fluid (ooh) 
+Yggdrasil is a a simple, responsive, light-weight (~2K minified), fluid (ooh) 
 and nestable (double ooh), mobile-first CSS grid in 12 parts. 
 (Basically, all the buzzwords.)
 

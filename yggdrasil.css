@@ -16,13 +16,8 @@ html {
 
 .grid {
 	display:inline-block;
-	width:100%;
-	margin-left:1.5%;
-}
-
-.offset {
-    height:0;
-    padding:1px;
+	width:98%;
+	margin-left:2.5%;
 }
 
 .c1,
@@ -55,7 +50,19 @@ html {
 	.c9  { width:48%; }
 	.c10 { width:48%; }
 	.c11 { width:48%; }
-	.c12 { width:96%; }
+	.c12 { width:96.5%; }
+	
+	.off1  { margin-left:48.5%; }
+	.off2  { margin-left:48.5%; }
+	.off3  { margin-left:48.5%; }
+	.off4  { margin-left:48.5%; }
+	.off5  { margin-left:48.5%; }
+	.off6  { margin-left:48.5%; }
+	.off7  { margin-left:48.5%; }
+	.off8  { margin-left:48.5%; }
+	.off9  { margin-left:48.5%; }
+	.off10 { margin-left:48.5%; }
+	.off11 { margin-left:48.5%; }
 }
 
 @media (min-width:740px) {
@@ -70,7 +77,19 @@ html {
 	.c9  { width:72%; }
 	.c10 { width:72%; }
 	.c11 { width:72%; }
-	.c12 { width:96%; }
+	.c12 { width:96.5%; }
+
+	.off1  { margin-left:24.5%; }
+	.off2  { margin-left:24.5%; }
+	.off3  { margin-left:24.5%; }
+	.off4  { margin-left:32.5%; }
+	.off5  { margin-left:48.5%; }
+	.off6  { margin-left:48.5%; }
+	.off7  { margin-left:48.5%; }
+	.off8  { margin-left:64.5%; }
+	.off9  { margin-left:72.5%; }
+	.off10 { margin-left:72.5%; }
+	.off11 { margin-left:72.5%; }
 }
 
 @media (min-width:960px) {
@@ -85,7 +104,19 @@ html {
 	.c9  { width:72%; }
 	.c10 { width:72%; }
 	.c11 { width:80%; }
-	.c12 { width:96%; }
+	.c12 { width:96.5%; }
+
+	.off1  { margin-left:16.5%; }
+	.off2  { margin-left:24.5%; }
+	.off3  { margin-left:24.5%; }
+	.off4  { margin-left:32.5%; }
+	.off5  { margin-left:40.5%; }
+	.off6  { margin-left:48.5%; }
+	.off7  { margin-left:56.5%; }
+	.off8  { margin-left:64.5%; }
+	.off9  { margin-left:72.5%; }
+	.off10 { margin-left:72.5%; }
+	.off11 { margin-left:80.5%; }
 }
 
 @media (min-width:1140px) {
@@ -100,5 +131,18 @@ html {
 	.c9  { width:72%; }
 	.c10 { width:80%; }
 	.c11 { width:88%; }
-	.c12 { width:96%; }
+	.c12 { width:96.5%; }
+
+	.off1  { margin-left:9%;  }
+	.off2  { margin-left:17%; }
+	.off3  { margin-left:25%; }
+	.off4  { margin-left:33%; }
+	.off5  { margin-left:41%; }
+	.off6  { margin-left:49%; }
+	.off7  { margin-left:57%; }
+	.off8  { margin-left:65%; }
+	.off9  { margin-left:73%; }
+	.off10 { margin-left:81%; }
+	.off11 { margin-left:89%; }
 }
+

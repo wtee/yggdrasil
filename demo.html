@@ -3,13 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" / >
-  <link rel="stylesheet" href="yggdrasil.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />
+  <link rel="stylesheet" href="yggdrasil.min.css" />
   <style>
-.grid div {
-    background-color:#aaa;
-}
-
 .c1,
 .c2,
 .c3,
@@ -22,39 +18,89 @@
 .c10,
 .c11,
 .c12 {
-	height:100px;
-	margin-top:1em;
+	min-height:4em;
+	margin-top:0.5em;
+	margin-bottom:0.5em;
 	text-align:center;
+	background-color:#ffae31;
+	color:#eee;
 }
 
-
-.c12 .c1,
-.c12 .c11 {
-	background-color:#ccc;
-	margin-top:0;
+.c12>.c1,
+.c12>.c11 {
+	background-color:#aaeedd;
+	color:#111;
 }
 
-.c11 .c6 {
+.c11>.c6,
+.c7>.c1,
+.c7>.c9 {
+	background-color:#008983;
+}
+
+body,
+.no-color {
 	background-color:#eee;
-	margin-top:0;
+	color:#111;
 }
+
+h1 {
+	font-size:4em;
+}
+
+h1,
+h2,
+p {
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-weight:bold;
+}
+
   </style>
 </head>
 <body>
   <div class="grid">
-	<div class="c1">foo</div><div class="c11">banana</div>
-	<div class="c2">bar</div><div class="c10">kiwi</div>
-	<div class="c3">baz</div><div class="c9">apple</div>
-	<div class="c4">qux</div><div class="c8">papaya</div>
-	<div class="c5">quux</div><div class="c7">orange</div>
-	<div class="c6">quuux</div><div class="c6">tomato</div>
+    <div class="c12 no-color">
+      <h1>Yggdrasil.css</h1>
+      <p>Yet another responsive, fluid, mobile-first, nestable CSS grid.
+      This one's called Yggdrasil. If you want to take it for a spin,
+      it's on <a href="https://github.com/wtee/yggdrasil">Github</a>.</p>
+    </div>
+    <div class="c12 no-color"><h2>Showing off the basic grid</h2></div>
+	<div class="c1"><p>foo</p></div><div class="c11"><p>banana</p></div>
+	<div class="c2"><p>bar</p></div><div class="c10"><p>kiwi</p></div>
+	<div class="c3"><p>baz</p></div><div class="c9"><p>apple</p></div>
+	<div class="c4"><p>qux</p></div><div class="c8"><p>papaya</p></div>
+	<div class="c5"><p>quux</p></div><div class="c7"><p>orange</p></div>
+	<div class="c6"><p>quuux</p></div><div class="c6"><p>tomato</p></div>
+	<div class="c12 no-color"><h2>Showing off nesting</h2></div>
 	<div class="c12">
-	  <div class="c1">Look, I'm nested!</div>
+	  <div class="c1"><p>Look, I'm nested!</p></div>
 	  <div class="c11">
-	    <div class="c6">I'm nested in a nested div!</div>
-	    <div class="c6">Me too!</div>
+	    <div class="c6"><p>I'm nested in a nested div!</p></div>
+	    <div class="c6"><p>Me too!</p></div>
 	  </div>
 	</div>
+	<div class="c12 no-color"><h2>Showing off offsets</p></h2></div>
+	<div class="off1 c11"><p>fee</p></div>
+	<div class="off2 c10"><p>fye</p></div>
+	<div class="off3 c9"><p>foo</p></div>
+	<div class="off4 c8"><p>fum</p></div>
+	<div class="off5 c7"><p>eeny</p></div>
+	<div class="off6 c6"><p>meany</p></div>
+	<div class="off7 c5"><p>miney</p></div>
+	<div class="off8 c4"><p>moo</p></div>
+	<div class="off9 c3"><p>ba</p></div>
+	<div class="off10 c2"><p>na</p></div>
+	<div class="off11 c1"><p>nas</p></div>
+	<div class="c12 no-color"><h2>And the whole shebang all mixed up</h2></div>
+	<div class="off3 c3"><p>I'm offset by 3 and, I'm 3 wide!</p></div>
+	<div class="off1 c1"><p>I'm offset by 1 and 1 wide!</p></div>
+	<div class="c7"><p>Potatoes</p></div>
+	<div class="c5"><p>Onions</p></div>
+	<div class="off2 c6"><p>Move on over 2.</p></div>
+	<div class="off4 c7">
+	  <div class="c1"><p>Embedded in an offset div</p></div>
+	  <div class="off1 c9"><p>Offset and embedded in an offset div</p></div>
   </div>
 </body>
 </html>
