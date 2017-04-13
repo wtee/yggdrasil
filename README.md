@@ -1,5 +1,5 @@
 # Yggdrasil
-Yggdrasil is a a simple, responsive, light-weight (~3K minified), fluid (ooh)
+Yggdrasil is a a simple, responsive, light-weight (~2K minified), fluid (ooh)
 and nestable (double ooh), mobile-first CSS grid in 12-part flexbox harmony.
 (Basically, all the buzzwords.)
 
@@ -15,11 +15,12 @@ Because I could.
 ## Should you use it?
 Meh.
 
-Yggdrasil's pretty young and still subject to change. Maybe use a more
-mature grid system. There's a lot of nice options out there. That said,
-it's super simple, so if that's your thing ...
+Yggdrasil doesn't support browsers that don't support flexbox without vendor prefixes,
+like IE 10, though it should degrade gracefully enough. It's also closer to a hobby project 
+than an attempt at a professional, production-ready framework, so there may be odd edge 
+cases where it breaks down in funny ways.
 
-This is free and unencumbered software released into the public domain
-under the terms of the [Unlicense](http://unlicense.org).
+That said, it is functional and simple to use. And it's free and unencumbered software 
+released into the public domain under the terms of the [Unlicense](http://unlicense.org).
 
 Also, there's a [demo](http://www.sometimes-i.com/code/yggdrasil/demo.html).
