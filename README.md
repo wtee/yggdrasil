@@ -1,6 +1,6 @@
 # Yggdrasil
-Yggdrasil is a a simple, responsive, light-weight (~2K minified), fluid (ooh)
-and nestable (double ooh), mobile-first CSS grid in 12 parts.
+Yggdrasil is a a simple, responsive, light-weight (~3K minified), fluid (ooh)
+and nestable (double ooh), mobile-first CSS grid in 12-part flexbox harmony.
 (Basically, all the buzzwords.)
 
 It's named after the [mythological Norse world tree](https://en.wikipedia.org/wiki/Yggdrasil).
