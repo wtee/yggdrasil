@@ -53,9 +53,9 @@ html {
 	.c7   { flex-basis:48%; }
 	.c8   { flex-basis:48%; }
 	.c9   { flex-basis:48%; }
-	.c10 { flex-basis:48%; }
-	.c11 { flex-basis:48%; }
-	.c12 { flex-basis:96.5%; }
+	.c10  { flex-basis:48%; }
+	.c11  { flex-basis:48%; }
+	.c12  { flex-basis:96.5%; }
 
 	.off1   { margin-left:48.5%; }
 	.off2   { margin-left:48.5%; }
@@ -66,8 +66,8 @@ html {
 	.off7   { margin-left:48.5%; }
 	.off8   { margin-left:48.5%; }
 	.off9   { margin-left:48.5%; }
-	.off10 { margin-left:48.5%; }
-	.off11 { margin-left:48.5%; }
+	.off10  { margin-left:48.5%; }
+	.off11  { margin-left:48.5%; }
 }
 
 @media (min-width:740px) {
@@ -80,9 +80,9 @@ html {
 	.c7   { flex-basis:48%; }
 	.c8   { flex-basis:64%; }
 	.c9   { flex-basis:72%; }
-	.c10 { flex-basis:72%; }
-	.c11 { flex-basis:72%; }
-	.c12 { flex-basis:96.5%; }
+	.c10  { flex-basis:72%; }
+	.c11  { flex-basis:72%; }
+	.c12  { flex-basis:96.5%; }
 
 	.off1   { margin-left:24.5%; }
 	.off2   { margin-left:24.5%; }
@@ -93,8 +93,8 @@ html {
 	.off7   { margin-left:48.5%; }
 	.off8   { margin-left:64.5%; }
 	.off9   { margin-left:72.5%; }
-	.off10 { margin-left:72.5%; }
-	.off11 { margin-left:72.5%; }
+	.off10  { margin-left:72.5%; }
+	.off11  { margin-left:72.5%; }
 }
 
 @media (min-width:960px) {
@@ -107,9 +107,9 @@ html {
 	.c7   { flex-basis:56%; }
 	.c8   { flex-basis:64%; }
 	.c9   { flex-basis:72%; }
-	.c10 { flex-basis:72%; }
-	.c11 { flex-basis:80%; }
-	.c12 { flex-basis:96.5%; }
+	.c10  { flex-basis:72%; }
+	.c11  { flex-basis:80%; }
+	.c12  { flex-basis:96.5%; }
 
 	.off1   { margin-left:16.5%; }
 	.off2   { margin-left:24.5%; }
@@ -120,8 +120,8 @@ html {
 	.off7   { margin-left:56.5%; }
 	.off8   { margin-left:64.5%; }
 	.off9   { margin-left:72.5%; }
-	.off10 { margin-left:72.5%; }
-	.off11 { margin-left:80.5%; }
+	.off10  { margin-left:72.5%; }
+	.off11  { margin-left:80.5%; }
 }
 
 @media (min-width:1140px) {
@@ -134,9 +134,9 @@ html {
 	.c7   { flex-basis:56%; }
 	.c8   { flex-basis:64%; }
 	.c9   { flex-basis:72%; }
-	.c10 { flex-basis:80%; }
-	.c11 { flex-basis:88%; }
-	.c12 { flex-basis:96.5%; }
+	.c10  { flex-basis:80%; }
+	.c11  { flex-basis:88%; }
+	.c12  { flex-basis:96.5%; }
 
 	.off1   { margin-left:9%;  }
 	.off2   { margin-left:17%; }
@@ -147,6 +147,6 @@ html {
 	.off7   { margin-left:57%; }
 	.off8   { margin-left:65%; }
 	.off9   { margin-left:73%; }
-	.off10 { margin-left:81%; }
-	.off11 { margin-left:89%; }
+	.off10  { margin-left:81%; }
+	.off11  { margin-left:89%; }
 }

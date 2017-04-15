@@ -18,10 +18,11 @@
 .c10,
 .c11,
 .c12 {
+  display:flex;
 	min-height:4em;
 	margin-top:0.5em;
 	margin-bottom:0.5em;
-	text-align:center;
+  justify-content:center;
 	background-color:#ffae31;
 	color:#eee;
 }
@@ -44,8 +45,9 @@ body,
 	color:#111;
 }
 
-h1 {
+.c12 h1 {
 	font-size:4em;
+  min-height:0;
 }
 
 h1,
@@ -59,12 +61,12 @@ p {
 </head>
 <body>
   <div class="grid">
-    <div class="c12 no-color">
-      <h1>Yggdrasil.css</h1>
-      <p>Yet another responsive, fluid, mobile-first, nestable CSS grid.
+    <header class="c12 no-color grid">
+      <h1 class="c12 no-color">Yggdrasil.css</h1>
+      <p class="c12 no-color">Yet another responsive, fluid, mobile-first, nestable CSS grid.
       This one's called Yggdrasil. If you want to take it for a spin,
       it's on <a href="https://github.com/wtee/yggdrasil">Github</a>.</p>
-    </div>
+    </header>
     <div class="c12 no-color"><h2>Showing off the basic grid</h2></div>
 	<div class="c1"><p>foo</p></div>
   <div class="c11"><p>banana</p></div>
